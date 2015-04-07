@@ -1,5 +1,19 @@
 require "drprl/version"
+require 'nokogiri'
+require 'time'
+require 'json'
+require 'open-uri'
+
+require 'drprl/document'
+require 'drprl/parser'
+require 'drprl/uri_parser'
 
 module Drprl
-  # Your code goes here...
+  def self.parse(uri)
+    Parser.new(uri).call
+  end
+
+  def self.parse_uri(uri)
+    URIParser.new(uri).call
+  end
 end

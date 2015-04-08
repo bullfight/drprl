@@ -11,4 +11,9 @@ describe Drprl do
   it 'parses a file' do
     expect(subject.parse(filename)).to be_an Drprl::Document
   end
+
+  it 'returns posts' do
+    document = subject.parse(filename)
+    expect(document.posts.first).to be_a Drprl::Post
+  end
 end

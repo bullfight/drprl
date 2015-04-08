@@ -1,10 +1,7 @@
 module Drprl
   class Document
-    def self.call(document)
-      self.new(document)
-    end
-
-    def initialize(document)
-    end
+    include DocumentBuilder::Model
+    xpath "//nodes"
+    attribute :posts, 'node', PostCollection
   end
 end

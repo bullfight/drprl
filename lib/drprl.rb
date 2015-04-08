@@ -4,7 +4,12 @@ require 'time'
 require 'json'
 require 'open-uri'
 
+require 'document_builder'
+
+require 'drprl/post'
+require 'drprl/post_collection'
 require 'drprl/document'
+
 require 'drprl/parser'
 require 'drprl/uri_parser'
 

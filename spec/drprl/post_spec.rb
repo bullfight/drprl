@@ -25,4 +25,12 @@ describe Drprl::Post do
   it 'has a published' do
     expect(subject.published).to eq "Yes"
   end
+
+  it 'has a path' do
+    expect(subject.path).to eq '/news/avenged-sevenfold-headline-mayhem-festival'
+  end
+
+  it 'has a slug' do
+    expect(subject.slug).to eq 'news-avenged-sevenfold-headline-mayhem-festival'
+  end
 end

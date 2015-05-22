@@ -34,6 +34,7 @@
     <Name>&lt;a href="/users/a7x-team" title="View user profile."&gt;A7X Team&lt;/a&gt;</Name>
     <Published>Yes</Published>
     <Media></Media>
+    <path>/news/avenged-sevenfold-headline-mayhem-festival</path>
   </node>
   <node>
     <Title>One Month Until Shepherd of Fire Tour</Title>
@@ -46,6 +47,7 @@
     <Name>&lt;a href="/users/a7x-team" title="View user profile."&gt;A7X Team&lt;/a&gt;</Name>
     <Published>Yes</Published>
     <Media></Media>
+    <path>/news/one-month-until-shepherd-fire-tour</path>
   </node>
   <node>
     <Title>Hail to the King: Deathbat</Title>
@@ -56,5 +58,6 @@
     <Name>&lt;a href="/users/a7x-team" title="View user profile."&gt;A7X Team&lt;/a&gt;</Name>
     <Published>Yes</Published>
     <Media></Media>
+    <path>/news/hail-king-deathbat</path>
   </node>
 </nodes>

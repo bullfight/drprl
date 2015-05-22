@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Drprl::VERSION
   spec.authors       = ["Patrick Schmitz"]
   spec.email         = ["p.schmitz@gmail.com"]
-  spec.summary       = %q{A simple tool to transform a Drupal DB to WRX XML}
+  spec.summary       = %q{A simple tool to map a db export to ruby objects}
   spec.homepage      = ""
   spec.license       = "MIT"
 

@@ -31,6 +31,6 @@ describe Drprl::Post do
   end
 
   it 'has a slug' do
-    expect(subject.slug).to eq 'news-avenged-sevenfold-headline-mayhem-festival'
+    expect(subject.slug).to eq 'avenged-sevenfold-headline-mayhem-festival'
   end
 end

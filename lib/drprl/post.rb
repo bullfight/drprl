@@ -10,7 +10,7 @@ module Drprl
     attribute :path, 'path'
 
     def slug
-      path[1..-1].split('/').join('-')
+      path[1..-1].split('/')[1]
     end
   end
 end
